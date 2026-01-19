@@ -1,0 +1,7 @@
+{
+  "num_profiles": 50000,
+  "embedding_dim": 384,
+  "index_type": "IndexFlatIP",
+  "normalized": true,
+  "model_path": "artifacts/models/bi_encoder"
+}

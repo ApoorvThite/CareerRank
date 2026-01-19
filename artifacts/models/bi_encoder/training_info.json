@@ -1,0 +1,6 @@
+{
+  "model_name": "all-MiniLM-L6-v2",
+  "model_type": "pre-trained (no fine-tuning)",
+  "embedding_dim": 384,
+  "note": "Using pre-trained model directly for Day 3 baseline"
+}

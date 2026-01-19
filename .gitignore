@@ -1,0 +1,48 @@
+# Large data files (too big for GitHub)
+profiles.csv
+compatibility_pairs.csv
+artifacts/pair_text_dataset.csv
+artifacts/serialized_profiles.csv
+
+# Large model files and embeddings (use Git LFS or exclude)
+artifacts/embeddings/
+artifacts/index/
+artifacts/models/bi_encoder/model.safetensors
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# MLflow
+mlruns/
+mlflow.db
+
+# Logs
+*.log

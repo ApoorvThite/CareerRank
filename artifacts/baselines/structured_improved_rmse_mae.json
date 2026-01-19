@@ -1,0 +1,45 @@
+{
+  "model": "LightGBM_Enhanced",
+  "num_features": 21,
+  "base_features": [
+    "skill_match_score",
+    "skill_complementarity_score",
+    "experience_gap",
+    "geographic_score",
+    "seniority_match",
+    "industry_match",
+    "network_value_a_to_b",
+    "network_value_b_to_a",
+    "career_alignment_score"
+  ],
+  "engineered_features": [
+    "skill_match_x_complementarity",
+    "skill_total",
+    "network_total",
+    "network_asymmetry",
+    "network_ratio",
+    "experience_gap_squared",
+    "career_alignment_squared",
+    "same_industry_high_career",
+    "same_seniority_high_skills",
+    "exp_gap_small",
+    "exp_gap_medium",
+    "exp_gap_large"
+  ],
+  "train": {
+    "rmse": 0.11826049587757406,
+    "mae": 0.08115976141540551
+  },
+  "val": {
+    "rmse": 0.1191989738700556,
+    "mae": 0.081657698265955
+  },
+  "test": {
+    "rmse": 0.11884931991690739,
+    "mae": 0.08140156530692029
+  },
+  "improvement_vs_baseline": {
+    "val_rmse_pct": 59.1504544653682,
+    "test_rmse_pct": 59.031602924196
+  }
+}

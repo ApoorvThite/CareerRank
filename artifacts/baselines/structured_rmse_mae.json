@@ -1,0 +1,26 @@
+{
+  "model": "LightGBM",
+  "features": [
+    "skill_match_score",
+    "skill_complementarity_score",
+    "experience_gap",
+    "geographic_score",
+    "seniority_match",
+    "industry_match",
+    "network_value_a_to_b",
+    "network_value_b_to_a",
+    "career_alignment_score"
+  ],
+  "train": {
+    "rmse": 0.29178249216431845,
+    "mae": 0.20203224692718086
+  },
+  "val": {
+    "rmse": 0.2918213493628122,
+    "mae": 0.20181714028156658
+  },
+  "test": {
+    "rmse": 0.2900594976990812,
+    "mae": 0.20110193434872337
+  }
+}
